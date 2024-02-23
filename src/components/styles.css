@@ -1,0 +1,91 @@
+.navbar {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    background: rgba(2, 2, 2, 0.72);
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.314);
+}
+
+.navbar a {
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: color .2s ease;
+}
+
+.navbar a:hover {
+    color: #edc56f;
+}
+
+.header {
+    min-height: 100vh;
+}
+
+.img {
+    opacity: .27;
+}
+
+.img2 {
+    opacity: .1;
+    width: 45rem;
+    height: 45rem;
+}
+
+.about__section{
+    min-height: 100vh;
+}
+
+
+/* default */
+
+.custom-btn {
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: rgb(244, 244, 244);
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    outline: none;
+    border: 1px solid #ba6;
+}
+.custom-btn:active{
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+}
+
+.title-gold {
+    background: linear-gradient(to bottom, #e5b958 22%,#dcc96a 24%, #fbc95d 26%, #f0c870 27%,#ffdb6f 40%,#f6c35f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+	font-weight: 400;
+}
+
+.title-gold:after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #e1b954, 
+		0 1px 1px #d2af56, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
