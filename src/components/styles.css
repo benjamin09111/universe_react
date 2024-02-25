@@ -77,7 +77,9 @@
     border-radius: 5px;
     transition: all .3s ease;
     cursor: pointer;
-    min-width: 15rem;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .flexphotos img:hover {
@@ -85,10 +87,15 @@
     opacity: .7;
 }
 
-.special-img {
-    height: 22.3rem;
+.column1 {
+    flex: 1;
 }
-
+.column2 {
+    flex: 1;
+}
+.column3 {
+    flex: 1;
+}
 
 /* default */
 

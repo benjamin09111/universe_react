@@ -3,7 +3,7 @@ import "./styles.css"
 
 const PhotosFlex = () => {
     return (
-        <div className='flexphotos flex flex-col gap-4'>
+        <div className='flexphotos flex flex-col gap-4 md:px-16 2xl:px-32'>
 
             <div>
                 <a target='_blank' href="https://science.nasa.gov/wp-content/uploads/2023/07/webb-flickr-52660766241-63ab077ba6-4k-slice.jpg?w=4096&format=jpeg">
@@ -11,10 +11,10 @@ const PhotosFlex = () => {
                 </a>
             </div>
 
-            <div className='flex flex-col lg:flex-row gap-3'>
-                <div className='column flex flex-col gap-4'>
+            <div className='flex flex-col 2xl:flex-row gap-3'>
+                <div className='column1 flex flex-col gap-4'>
                     <a target='_blank' href="https://science.nasa.gov/wp-content/uploads/2023/06/webb-flickr-52259221868-30e1c78f0c-4k-jpg.webp">
-                        <img src="https://science.nasa.gov/wp-content/uploads/2023/06/webb-flickr-52259221868-30e1c78f0c-4k-jpg.webp" alt="image-1" />
+                        <img src="https://science.nasa.gov/wp-content/uploads/2023/06/webb-flickr-52259221868-30e1c78f0c-4k-jpg.webp" alt="image-1"/>
                     </a>
                     <a target='_blank' href="https://c02.purpledshub.com/uploads/sites/48/2022/10/webb-pillars-creation-crop-65e34f6-e1678960806604.jpeg">
                         <img src="https://c02.purpledshub.com/uploads/sites/48/2022/10/webb-pillars-creation-crop-65e34f6-e1678960806604.jpeg" alt="image-2" />
@@ -24,7 +24,7 @@ const PhotosFlex = () => {
                     </a>
                 </div>
 
-                <div className='column flex flex-col gap-4'>
+                <div className='column2 flex flex-col gap-4'>
                     <a target='_blank' href="https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014146/SupermassiveBinaryBlackHoles_desktop.png">
                         <img src="https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014146/SupermassiveBinaryBlackHoles_desktop.png" alt="image-4" className='h-96'/>
                     </a>
@@ -36,7 +36,7 @@ const PhotosFlex = () => {
                     </a>
                 </div>
 
-                <div className='column flex flex-col gap-4'>
+                <div className='column3 flex flex-col gap-4'>
                     <a target='_blank' href="https://www.nasa.gov/wp-content/uploads/2023/03/main_image_deep_field_smacs0723-5mb.jpg">
                         <img src="https://www.nasa.gov/wp-content/uploads/2023/03/main_image_deep_field_smacs0723-5mb.jpg" alt="image-7" className='img-7'/>
                     </a>
@@ -45,9 +45,6 @@ const PhotosFlex = () => {
                     </a>
                     <a target='_blank' href="https://c4.wallpaperflare.com/wallpaper/664/594/348/sci-fi-galaxy-black-hole-hubble-wallpaper-preview.jpg">
                         <img src="https://c4.wallpaperflare.com/wallpaper/664/594/348/sci-fi-galaxy-black-hole-hubble-wallpaper-preview.jpg" alt="image-9" className='img-9'/>
-                    </a>
-                    <a target='_blank' href="https://www.mundodeportivo.com/urbantecno/hero/2023/11/ahora-ya-sabemos-el-motivo-por-el-que-algunos-planetas-encogen.png?width=768&aspect_ratio=16:9&format=nowebp">
-                        <img src="https://www.mundodeportivo.com/urbantecno/hero/2023/11/ahora-ya-sabemos-el-motivo-por-el-que-algunos-planetas-encogen.png?width=768&aspect_ratio=16:9&format=nowebp" alt="image-10" className='img-10'/>
                     </a>
                 </div>
             </div>

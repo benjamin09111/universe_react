@@ -17,7 +17,7 @@ const About = () => {
                     </p>
                     <p className='text-gray-300 text-md text-center lg:text-right w-full'>All Rights Reserved - BMP</p>
                     <p className='text-gray-300 text-md text-center lg:text-right w-full'>PixelSquid Images</p>
-                    <a href="/" className='custom-btn'>Search for more</a>
+                    <a target='_blank' href="https://theuniverseproject.netlify.app" className='custom-btn'>Search for more</a>
                 </div>
             </div>
         </section>

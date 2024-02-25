@@ -5,7 +5,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <navbar className="navbar w-full lg:w-auto flex-row justify-center items-center gap-2 lg:gap-10 pt-6 pb-4">
+        <navbar className="navbar w-full flex-row justify-center items-center gap-2 lg:gap-10 pt-6 pb-4">
             <div className='hidden lg:flex gap-6 justify-center items-center'>
             <a href="#home">Home</a>
             <a href="#search">System</a>
@@ -24,10 +24,10 @@ const Navbar = () => {
             {
                 open && 
                 <div className='navbar__overlay flex flex-col justify-center items-center w-full lg:hidden'>
-                <a href="#home" className='w-full py-16 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>Home</a>
-                <a href="#search" className='w-full py-16 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>System</a>
-                <a href="#gallery" className='w-full py-16 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>Gallery</a>
-                <a href="#about" className='w-full py-16 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>About</a>
+                <a href="#home" className='w-full py-12 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>Home</a>
+                <a href="#search" className='w-full py-12 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>System</a>
+                <a href="#gallery" className='w-full py-12 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>Gallery</a>
+                <a href="#about" className='w-full py-12 hover:bg-black  text-center' onClick={()=> setOpen(!open)}>About</a>
                 </div>
             }
         </navbar>
