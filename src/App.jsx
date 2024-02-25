@@ -8,7 +8,7 @@ import About from "./components/About"
 function App() {
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col justify-center items-center'>
       <Navbar />
       <Header />
       <Searcher />

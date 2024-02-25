@@ -3,7 +3,7 @@ import "./styles.css"
 
 const PhotosFlex = () => {
     return (
-        <div className='flexphotos flex flex-col gap-4 lg:px-64 mt-16'>
+        <div className='flexphotos flex flex-col gap-4'>
 
             <div>
                 <a target='_blank' href="https://science.nasa.gov/wp-content/uploads/2023/07/webb-flickr-52660766241-63ab077ba6-4k-slice.jpg?w=4096&format=jpeg">
