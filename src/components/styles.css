@@ -39,6 +39,50 @@
     min-height: 100vh;
 }
 
+.planet__container span {
+    font-size: 1.2rem;
+}
+
+.searcher__container {
+    border-radius: 5px;
+    border: 2px solid #e5b958;
+    margin-top: 1rem;
+    background: rgb(3, 3, 3);
+}
+
+.searcher__container div {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.searcher__container input {
+    border-left: 1px solid #e5b958;
+    padding: .3rem .5rem;
+}
+
+.flexphotos img {
+    border-radius: 5px;
+    transition: all .3s ease;
+    cursor: pointer;
+    min-width: 25rem;
+}
+
+@media screen and (max-width: 1024px){
+    .flexphotos img {
+        min-width: 25rem;
+        max-width: 30rem;
+    }
+}
+
+.flexphotos img:hover {
+    transform: scale(1.01);
+    opacity: .7;
+}
+
+.special-img {
+    height: 22.3rem;
+}
+
 
 /* default */
 
